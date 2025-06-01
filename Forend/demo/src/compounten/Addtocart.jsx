@@ -83,7 +83,7 @@ const handleclick=async(id)=>{
         {fech.map((item,index)=>
         <div key={index}  className='col-12 col-md-6 col-lg-3 my-5'>
       <div className="card animate__animated animate__bounceInLeft custom-bounce"style={{width:"18"}}>
-          {/* <img src={`http://localhost:3000/${filenmae:}`} className="card-img-top" width={250} height={200} alt="..."/> */}
+
           <div  className="card-body ">
 
             <h4> s.no:{index+1}</h4>
