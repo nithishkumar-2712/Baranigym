@@ -100,7 +100,7 @@ const handleclick=async(id)=>{
           </div>
          <button className="btn btn-success"disabled={item.prodect.stock==0} onClick={()=>handleclick(item._id)}>buy</button><br></br>
          <button className="btn btn-danger" onClick={()=>handlecliick(item._id)}>delete</button>
-         {/* <p>{preshed?"already  purched":"go to purshed"}</p> */}
+    
         </div>
       </div>  
   </div>)}
