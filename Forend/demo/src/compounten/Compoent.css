@@ -1,0 +1,18 @@
+/* .backendimage:hover{
+  height: 350px;
+    background-image: url("../assets/10.jpg.jpg");
+ } */
+ .card-body:hover {
+        /* border:2px solid black;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px black; */
+     background-color:pink;
+    border-radius: 0px 0px 20px 20px;
+ }
+ .card{
+    border:2px solid black;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
