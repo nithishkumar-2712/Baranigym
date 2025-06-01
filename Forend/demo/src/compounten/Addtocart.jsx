@@ -85,7 +85,7 @@ const handleclick=async(id)=>{
       <div className="card animate__animated animate__bounceInLeft custom-bounce"style={{width:"18"}}>
           {/* <img src={`http://localhost:3000/${filenmae:}`} className="card-img-top" width={250} height={200} alt="..."/> */}
           <div  className="card-body ">
-       {/* <p>{item.prodect._id}</p>  */}
+
             <h4> s.no:{index+1}</h4>
          <h5 className="card-title text-truncate"> name:{item.prodect.name}</h5>
           <p className="card-text">price:${item.prodect.price}</p>
